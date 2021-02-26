@@ -1,0 +1,104 @@
+/* Change color scheme */
+body {
+    background-color: #e3d18a;
+}
+
+/* Theme Paragraphs with CSS */
+p {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1em;
+    text-indent: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #85603f;
+}
+
+/* Style Images */
+.fig {
+    width: 30%;
+}
+div.fig { 
+    display:block;
+    margin:0 auto;
+    text-align:center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+img {
+    border: 1px solid #1e212d;
+    border-radius: 8px;
+    max-width: 50%;
+}
+
+/* Theme Header Tags */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 0.5em;
+    color: #484018;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+table {
+    border-spacing: 0.25em;
+    font-size: 1.25em;
+    margin: 0 auto;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Theme hyperlinks */
+a {
+    color: #03506f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e40017;
+}
+
+hr {
+    height: 3px;
+    width: 80%; 
+    background-color:#484018;
+    border-color: #484018;
+    margin-top: 2em; 
+    margin-bottom: 2em;
+}
+
+/* Great Gatsby */
+.toc{
+    text-align: center;
+    font-size: 1.25em;
+}
+.toc h2{
+    margin-bottom: 1em;
+}
+.toc ol{
+    display: inline-block;
+    list-style: none;
+    margin: auto;
+    padding-left: 0;
+}
+div.dedication {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+div.epigraph {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,92 @@
+html, body {
+    background-color: #111;
+    text-transform: lowercase;
+    margin-right: 7%;
+}
+h2 {
+    text-align: center;
+    color: #f752a7;
+    text-transform: lowercase;
+}
+p {
+    color: #eafc00;
+    font-size: 1.25em;
+    text-transform: lowercase;
+}
+
+/* Navbars */
+.custom-nav {
+    background-color: #39FF14;
+}
+.info-side-content {
+    text-align: center;
+}
+.info-side-emoticons p{
+    font-size: 4em;
+}
+.info-side {
+    height: 100%; 
+    width: 15%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    right: 0;
+    background-color: #ef8d32;
+    overflow-x: hidden;
+    padding: 5em 0 2em;
+}
+
+/* Header */
+header {
+    padding-bottom: 0.5em;
+}
+header h1 {
+    color:#39FF14;
+    font-size: 2em;
+}
+header h3 {
+    color: #09F8D3;
+    font-size: 6em;
+}
+header .card {
+    background-color: #111;
+}
+.card-header{
+    background-color:#f752a7;
+    color: #fff;
+}
+.profile-image {
+    margin-top: 5em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+.profile-image img {
+    border: 25px solid #39FF14;
+    width: 20rem;
+    border-radius: 100%;
+    transform: rotate(125deg);
+}
+
+/* Body and Footer */
+.about, .skills, .projects {
+    padding-top: 1em;
+    margin: 0 auto;
+    width: 75%;
+    padding-bottom: 1em;
+}
+.skills h3 {
+    color: #39FF14;
+}
+.skills li {
+    color: #00FFFF;
+}
+.projects .card{
+    background-color: #fff3e6;
+}
+
+footer .card {
+    background-color: #f752a7;
+}
+footer h6 {
+    color: #fff;
+}

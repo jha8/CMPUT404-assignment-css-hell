@@ -1,0 +1,70 @@
+html, body {
+    background-color: #fbeeac;
+    margin-right: 7%;
+    color: #1e212d;
+}
+h2 {
+    text-align: center;
+}
+
+/* Navbars */
+
+.custom-nav {
+    background-color: #aa2b1d;
+}
+.info-side-content {
+    text-align: left;
+    padding-left: 1em;
+}
+.info-side {
+    height: 100%; 
+    width: 15%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    right: 0;
+    background-color: #ef8d32;
+    overflow-x: hidden;
+    padding: 5em 0 2em;
+}
+
+
+/* Header */
+
+header {
+    padding-bottom: 0.5em;
+}
+header .card {
+    background-color: #fbeeac;
+}
+.profile-image {
+    margin-top: 5em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+.profile-image img {
+    width: 30rem;
+    border-radius: 15%;
+}
+.card-header{
+    background-color: #aa2b1d;
+    color: #fff;
+}
+
+/* Body and Footer */
+.about, .skills, .projects {
+    padding-top: 1em;
+    margin: 0 auto;
+    width: 75%;
+    padding-bottom: 1em;
+}
+.projects .card{
+    background-color: #fff3e6;
+}
+
+footer .card {
+    background-color: #aa2b1d;
+}
+footer h6 {
+    color: #fff;
+}
